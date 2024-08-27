@@ -1,8 +1,8 @@
-import { View, Text, Button } from "react-native";
+import { View, Button } from "react-native";
 import React from "react";
 import Animated, { useSharedValue, withSpring } from "react-native-reanimated";
 
-const index = () => {
+const Animation1 = () => {
     const width = useSharedValue(100);
     const handlePress = () => {
         width.value = withSpring(width.value + 100);
@@ -23,4 +23,4 @@ const index = () => {
     );
 };
 
-export default index;
+export default Animation1;
