@@ -12,6 +12,7 @@ const index = () => {
         <View style={{ flex: 1, alignItems: "center" }}>
             <Text onPress={() => router.push("Animation1")}>Animation 1</Text>
             <Text onPress={() => router.push("Animation2")}>Animation 2</Text>
+            <Text onPress={() => router.push("Animation3")}>Animation 3</Text>
         </View>
     );
 };
