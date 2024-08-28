@@ -17,6 +17,9 @@ const index = () => {
             <Text onPress={() => router.push("Animation5")}>Animation 5</Text>
             <Text onPress={() => router.push("Animation6")}>Animation 6</Text>
             <Text onPress={() => router.push("Animation7")}>Animation 7</Text>
+            <Text onPress={() => router.push("Animation8")}>
+                Animation 8 - Custom Loader
+            </Text>
         </View>
     );
 };
